@@ -21,3 +21,17 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+
+body, .navbar {
+  //Gradient provided by @_ighosh at uigradients.com
+  background: #ffd89b;  /* fallback for old browsers */
+  background: -webkit-gradient(linear, 100% 0, 0 0, from(#19547b), to(#ffd89b));
+  background: -webkit-linear-gradient(to right, #19547b, #ffd89b);
+  background: -moz-linear-gradient(to right, #19547b, #ffd89b);
+  background: -o-linear-gradient(to right, #19547b, #ffd89b);
+  background: linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+  border: none;
+}
